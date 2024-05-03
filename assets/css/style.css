@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+:root{
+	--secondary : #303030;
+	--primary-color : #fec200;
+	--white : #f1f1f1;
+	--gray : #d4d4d4;
+}
+* {
+	font-family: "Montserrat", sans-serif;
+}
+h1, h2 {
+	font-family: 'Grand Hotel', cursive;
+}
+.jumbotron {
+	margin-top: -56px;
+	background-image: url("../image/bg_01.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+.jumbotron .container{
+	padding-top: 100px;
+}
+.jumbotron .container h1{
+	font-size: 5em;
+	color: var(--primary-color);
+}
+.jumbotron .container p{
+	color: var(--white);
+}
+.menu {
+	background: rgb(255,255,255);
+	background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(215,215,215,1) 100%);
+	background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(215,215,215,1) 100%);
+	background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(215,215,215,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#d7d7d7",GradientType=1);
+}
+.menu h1 {
+	font-size: 4em;
+}
+footer {
+	background-color: var(--secondary);
+}
+footer h3{
+	color: var(--white);
+	font-weight: bold;
+}
+footer p{
+	color: var(--gray);
+}
+footer a{
+	text-decoration: none;
+	color: var(--gray);
+}
+footer a:hover{
+	color: var(--white);
+}
