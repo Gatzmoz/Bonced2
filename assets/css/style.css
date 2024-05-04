@@ -22,6 +22,7 @@ h1, h2 {
 }
 .jumbotron .container{
 	padding-top: 100px;
+ height : 100%;
 }
 .jumbotron .container h1{
 	font-size: 5em;
